@@ -1,0 +1,97 @@
+COLOR.css
+        body {
+            background-color: #F5EEE6;
+        }
+
+         body {
+            margin: 10;
+            padding: 20;
+            font-family: Quicksand;
+            background-color: #F5EEE6;;
+        }
+         #profile {
+            width: 400px;
+            border-radius: 30%;
+            
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            font-family: quicksand;
+
+            background-color: #F5EEE6;;
+        }
+        div {
+            background-color: #f5cac3;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 200px;
+        }
+        div a {
+            text-decoration: none;
+            font-family: quicksand;
+            color: #FFF;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 20px;
+        }
+        div a:hover {
+            background-color: #9a8c98;
+        }
+
+    
+        main {
+            padding: 60px;
+            background-color: #F5EEE6;;
+        }
+        .passions {
+            background-color: #e1e5f2;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px ;
+            text-decoration: none;
+            color: #B4B4B8;
+            font-family: quicksand;
+            box-shadow: 0px 10px 30px #572F33;
+        }
+        .passions h2 {
+            color: #240A34;
+            width: 200px;
+            margin: 40px auto
+        }
+
+        @media (max-width: 500px) {
+            .passion {
+             width: 400px;
+            }
+        @media (max-width: 760px) {
+            .passion {
+             width: 600px;
+            }
+        
+        .social2 {
+            list-style: none;
+            text-align: center;
+            color: #FFF;
+            padding: 10px 20px;
+            margin-top: 30px; 
+            line-height: 30px;
+        }
+
+        .social2 li {
+          display: inline;
+          padding: 10px;
+        }
+
+        .social2 i {
+            font-size: 50px;
+            color: #C09F7E;
+            transition: all 0.3s ease;
+        }
+
+        .social2 i:hover {
+            font-size: 60px;
+            color: #fff;
+            opacity:3;
+        }
